@@ -1,3 +1,7 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .brand-bar{
     height: 50px;
 }
@@ -10,8 +14,10 @@
     height: 20px;
 }
 
-.nav-bar{
-    background-color: white;
+.navbar{
+    background-color: #ffffff;
+    height: 75px;
+    border: 1px solid black;
 }
 
 .nav-link{
@@ -30,3 +36,14 @@
 .search{
     width: 40%;
 }
+
+.jumbo .jumbo-bg{
+    /* height: 370px; */
+    padding-top: 250px;
+    background-color: red;
+    background-image: url(../img/jumbo-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
