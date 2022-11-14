@@ -37,6 +37,10 @@ body{
     width: 40%;
 }
 
+main h1{
+    font-weight: 500;
+}
+
 .jumbo .jumbo-bg{
     padding-top: 250px;
     background-image: url(../img/jumbo-bg.png);
