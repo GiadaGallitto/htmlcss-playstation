@@ -9,3 +9,16 @@
 #sony-logo{
     height: 20px;
 }
+
+.nav-bar{
+    background-color: white;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+
+.fa-chevron-down{
+    color: grey;
+    font-size: 0.7rem;
+}
