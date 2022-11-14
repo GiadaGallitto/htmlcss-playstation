@@ -30,7 +30,8 @@ body{
 
 .nav-item button,
 .jumbo button,
-.console button{
+.console button,
+.banner button{
     border-radius: 20px;
 }
 
@@ -57,4 +58,12 @@ main p{
 .jumbo-list .cover{
     border-radius: 20px;
     overflow: hidden;
+}
+
+.banner .banner-bg{
+    padding-top: 50px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 }
