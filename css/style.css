@@ -22,3 +22,11 @@
     color: grey;
     font-size: 0.7rem;
 }
+
+.nav-item button{
+    border-radius: 20px;
+}
+
+.search{
+    width: 40%;
+}
