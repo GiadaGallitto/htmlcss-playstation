@@ -17,7 +17,6 @@ body{
 .navbar{
     background-color: #ffffff;
     height: 75px;
-    border: 1px solid black;
 }
 
 .nav-link{
@@ -29,7 +28,8 @@ body{
     font-size: 0.7rem;
 }
 
-.nav-item button{
+.nav-item button,
+.jumbo button{
     border-radius: 20px;
 }
 
@@ -38,7 +38,6 @@ body{
 }
 
 .jumbo .jumbo-bg{
-    /* height: 370px; */
     padding-top: 250px;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
@@ -46,3 +45,7 @@ body{
     background-position: center top;
 }
 
+.jumbo-list .cover{
+    border-radius: 20px;
+    overflow: hidden;
+}
