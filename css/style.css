@@ -40,7 +40,6 @@ body{
 .jumbo .jumbo-bg{
     /* height: 370px; */
     padding-top: 250px;
-    background-color: red;
     background-image: url(../img/jumbo-bg.png);
     background-size: cover;
     background-repeat: no-repeat;
