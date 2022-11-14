@@ -1,0 +1,11 @@
+.brand-bar{
+    height: 50px;
+}
+
+.brand-bar .row{
+    background-color: black;
+}
+
+#sony-logo{
+    height: 20px;
+}
