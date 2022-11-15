@@ -34,7 +34,11 @@ body{
 
 .fa-chevron-down{
     color: grey;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+}
+
+.nav-item:hover i.fa-chevron-down{
+    color: #0071d1;
 }
 
 .nav-item button,
@@ -66,6 +70,16 @@ main p{
     background-position: center top;
 }
 
+.cover-bord{
+    transition: all 0.2s;
+    border-radius: 25px;
+}
+
+.cover-bord:hover{
+    border: 1px solid #0071d1;
+    padding: 0.2rem;
+}
+
 .cover{
     border-radius: 20px;
     overflow: hidden;
@@ -77,6 +91,11 @@ main p{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center top;
+}
+
+.banner h1,
+.banner p{
+    text-shadow: 10px 10px 15px black;
 }
 
 .ps-plus{
