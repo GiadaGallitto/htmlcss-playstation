@@ -86,3 +86,16 @@ main p{
 .ps-now{
     background-color: #161c3b;
 }
+
+footer{
+    background-color: #00439c;
+    font-size: 0.9rem;
+}
+
+footer .globe{
+    width: 5%;
+}
+
+footer .sie{
+    width: 20%;
+}
